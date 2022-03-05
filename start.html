@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +7,32 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="shortcut icon" href="./images/favicon-16x16.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <title>Memória Pokemón</title>
+    <title>Memória</title>
 </head>
 <body>
-    <div class="gameStart">
-        <div>
-            <h2>Bem-vindo ao jogo da memória Pokémon!</h2>
-            <br>
-            <p>Está preparado para o desafio?</p>
+
+<div id="gameBoard">
+
+   <!-- <div id="asjdasd" class="card" data-icon="bootstrap">
+        <div class="card_front">
+            <img class="icon" src="./images/bootstrap.png">
         </div>
-        <a class="startBtn"  href="./index.html">Iniciar</a>
+        <div class="card_back">
+            &lt/&gt
+        </div>
+    </div> -->
+
+</div> 
+
+    <div id="gameOver">
+        <div>
+            Parabéns! <br>Você completou o jogo!
+        </div>
+        <button id="restart" onclick="restart()">Jogue novamente</button>
     </div>
+
+    
+    <script src="./game.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
